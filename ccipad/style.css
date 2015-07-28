@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "copperplate";
+	src: url(CopperplateEF-Bold.otf);
+}
+h1 {
+	font-family: "copperplate";
+	font-size: 5vw;
+	letter-spacing:3vw;
+	color:#253D8A;
+	margin: 0;
+}
+svg {
+	position: relative;
+	display: inline-block;
+	width: 70%;
+	margin: 0;
+}
+img#logo {
+	position: relative;
+	display: inline-block;
+}
+header {
+	position: relative;
+	text-align: center;
+}
+main {
+	position: relative;
+	text-align: center;
+}
+input {
+
+	position: relative;
+	display: inline-block;
+}
+input#email {
+	width: 70%;
+	font-family: "Arial", Arial, Sans-serif;
+	font-size: 4vw;
+	text-align: center;
+	background-color: #254D8A;
+	color: white;
+	border: none;
+	border-radius: 50px;
+}
+input#submit {
+	margin-top: 2%;
+	font-family: "Arial", Arial, Sans-serif;
+	font-size: 5vw;
+}
+input:focus:invalid {
+	border: none;
+}
+
+div#response {
+	position: relative;
+	display: inline-block;
+	font-family: "Arial", Arial, Sans-serif;
+	text-align: center;
+	font-size: 2vw;
+}
+h4 {
+	font-family: "Arial", Arial, Sans-serif;
+}
+p {
+	font-family: "Arial", Arial, Sans-serif;
+}
